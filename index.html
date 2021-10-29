@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Happy Birthday Mummy</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <body>
+        <div class="main_header">
+      <div class="center_div">
+        <p>
+          From Ayush and Radhey
+          <br />
+          🎂We love you!🎂🎂Happy Birthday Mummy🎂
+        </p>
+      </div>
+    </div> <script>
+
+      const startit = () => {
+        setTimeout(function () {
+          console.log("start");
+          confetti.start();
+        }, 1000);
+      };
+
+      const stopit = () => {
+        setTimeout(function () {
+          console.log("stop");
+          confetti.stop();
+        }, 6000);
+      };
+
+      startit();
+      stopit();
+    </script>
+  </body>
+</html>
